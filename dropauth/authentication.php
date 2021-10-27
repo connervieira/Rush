@@ -4,7 +4,7 @@ if (isset($_SESSION['loggedin'])) { // Check to see if the user is already signe
     $username = $_SESSION["username"];
 } else {
     if ($force_login_redirect == true) {
-        header("Location: ./signin.php");
+        header("Location: ./dropauth/signin.php");
     }
 }
 ?>
