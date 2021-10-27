@@ -1,8 +1,10 @@
 # Rush
 
-Version 0.1 (in progress)
+Version 0.1
 
 An open source platform for linking independent business, delivery drivers, and customers using cryptocurrency.
+
+*Note: Rush isn't currently functional, and has no real functionality at the moment. This document explains features that may not be implemented yet.*
 
 
 ## Description
