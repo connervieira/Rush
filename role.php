@@ -24,15 +24,15 @@
             <p>Please select a role. You can switch roles later by logging out then logging back in.</p>
             <form style="border: 4px solid #aaaaaa;border-radius:15px;width:50%;margin-left:25%;padding-top:3%;padding-bottom:3%;" action="selectrole.php" method="post">
                 <div>
-                    <input type="radio" name="role" id="c" value="Customer" selected>
+                    <input type="radio" name="role" id="c" value="c" selected>
                     <label for="role">Customer</label><br>
                 </div>
                 <div>
-                    <input type="radio" name="role" id="d" value="Driver">
+                    <input type="radio" name="role" id="d" value="d">
                     <label for="role">Driver</label><br>
                 </div>
                 <div>
-                    <input type="radio" name="role" id="b" value="Business">
+                    <input type="radio" name="role" id="b" value="b">
                     <label for="role">Business</label><br>
                 </div>
                 <br>

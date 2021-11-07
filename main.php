@@ -45,6 +45,7 @@ if ($role == "c" or $role == "d" or $role == "b") {
                         
                     } else if ($role == "d") {
                         echo '<br><br><a class="button" href="./driver/payment.php">Configure Payment</a><br>';
+                        echo '<br><br><a class="button" href="./driver/contact.php">Configure Contact</a><br>';
                         echo '<br><br><a class="button" href="./driver/location.php">Configure Location</a><br>';
                         echo '<br><br><a class="button" href="./driver/price.php">Configure Pricing</a><br>';
                         echo '<br><br><a class="button" href="./driver/restrictions.php">Configure Restrictions</a><br>';
