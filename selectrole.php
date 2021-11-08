@@ -7,7 +7,7 @@ $selected_role = $_POST["role"];
 
 if ($selected_role == "c" or $selected_role == "b" or $selected_role = "d") {
     $role = $selected_role; // After verifying that the input is an expected and safe value, save it to $role.
-    $account_array = unserialize(file_get_contents('./accountsDatabase.txt')); // Load the account database.
+    $account_array = unserialize(file_get_contents('../accountsDatabase.txt')); // Load the account database.
     $account_array[$username]["role"] = $role; // Set the current user's role.
     $account_array[$username]["time"] = time(); // Set the time that the current user set their role so it can expire automatically.
     file_put_contents('./accountsDatabase.txt', serialize($account_array)); // Save the database to disk.
@@ -41,6 +41,7 @@ if ($selected_role == "c" or $selected_role == "b" or $selected_role = "d") {
                     }
                 ?>
             </h1>
+            <a href="./main.php" style="text-decoration:underline;color:white;">Continue</a>
         </div>
     </body>
 </html>

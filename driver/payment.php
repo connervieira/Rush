@@ -45,7 +45,7 @@ if ($submitted_xmr_address !== null and $submitted_xmr_address !== "") { // Chec
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Rush - Main</title>
+        <title>Rush - Driver Payment Configuration</title>
         <link href="../dropauth/stylesheets/styles.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -63,8 +63,8 @@ if ($submitted_xmr_address !== null and $submitted_xmr_address !== "") { // Chec
                     } else { 
                         // User is signed in as the wrong role to access this page.
 
-                        exit(); // Stop loading the page.
                         echo "<p>You are signed in as the wrong role to access this page!</p>"; // Notify the user why the page stopped loading.
+                        exit(); // Stop loading the page.
                     }
                 ?>
             </h1>
